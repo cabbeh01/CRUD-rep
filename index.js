@@ -47,6 +47,10 @@ app.get("/create",function(req,res){
     res.send(render(form));
 });
 
+app.post("/create",function(req,res){
+    req.send(req.body);
+});
+
 // Visa en gitarr
 app.get("/:id",function(req,res){
 
@@ -59,9 +63,7 @@ app.get("/delete/:id",function(req,res){
 
 
 
-app.post("/create",function(req,res){
 
-});
 
 app.get("/edit/:id",function(req,res){
 
