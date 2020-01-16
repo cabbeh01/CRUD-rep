@@ -19,6 +19,9 @@ module.exports = function(content){
             padding: 3%;
             min-height: 20vh;
         }
+        img{
+            width:50%;
+        }
     
         </style>
     </head>
